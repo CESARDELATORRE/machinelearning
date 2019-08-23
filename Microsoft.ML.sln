@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2026
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.152
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.ML.Core", "src\Microsoft.ML.Core\Microsoft.ML.Core.csproj", "{A6CA6CC6-5D7C-4D7F-A0F5-35E14B383B0A}"
 EndProject
@@ -263,6 +263,12 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.ML.StableApi", "tools-local\Microsoft.ML.StableApi\Microsoft.ML.StableApi.csproj", "{F308DC6B-7E59-40D7-A581-834E8CD99CFE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.ML.Dnn", "src\Microsoft.ML.Dnn\Microsoft.ML.Dnn.csproj", "{4C2D1A8F-7AC1-4036-B5E3-4B31769D73B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample-apps", "sample-apps", "{DD3BE061-1186-449A-9F37-26636DF1C736}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dnn-tensofFlow_transferlearning", "dnn-tensofFlow_transferlearning", "{D06E4830-B46D-43BC-A3B8-9A687C625292}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageClassification.Train", "docs\sample-apps\DeepLearning_TensorFlow_TransferLearning\ImageClassification.Train\ImageClassification.Train.csproj", "{0AC97E1C-7956-4B81-8246-9E1FBA5776FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1528,6 +1534,30 @@ Global
 		{4C2D1A8F-7AC1-4036-B5E3-4B31769D73B8}.Release-netfx|Any CPU.Build.0 = Release-netfx|Any CPU
 		{4C2D1A8F-7AC1-4036-B5E3-4B31769D73B8}.Release-netfx|x64.ActiveCfg = Release-netfx|Any CPU
 		{4C2D1A8F-7AC1-4036-B5E3-4B31769D73B8}.Release-netfx|x64.Build.0 = Release-netfx|Any CPU
+		{0AC97E1C-7956-4B81-8246-9E1FBA5776FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AC97E1C-7956-4B81-8246-9E1FBA5776FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AC97E1C-7956-4B81-8246-9E1FBA5776FF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0AC97E1C-7956-4B81-8246-9E1FBA5776FF}.Debug|x64.Build.0 = Debug|Any CPU
+		{0AC97E1C-7956-4B81-8246-9E1FBA5776FF}.Debug-netcoreapp3_0|Any CPU.ActiveCfg = Debug-netcoreapp3_0|Any CPU
+		{0AC97E1C-7956-4B81-8246-9E1FBA5776FF}.Debug-netcoreapp3_0|Any CPU.Build.0 = Debug-netcoreapp3_0|Any CPU
+		{0AC97E1C-7956-4B81-8246-9E1FBA5776FF}.Debug-netcoreapp3_0|x64.ActiveCfg = Debug-netcoreapp3_0|Any CPU
+		{0AC97E1C-7956-4B81-8246-9E1FBA5776FF}.Debug-netcoreapp3_0|x64.Build.0 = Debug-netcoreapp3_0|Any CPU
+		{0AC97E1C-7956-4B81-8246-9E1FBA5776FF}.Debug-netfx|Any CPU.ActiveCfg = Debug-netfx|Any CPU
+		{0AC97E1C-7956-4B81-8246-9E1FBA5776FF}.Debug-netfx|Any CPU.Build.0 = Debug-netfx|Any CPU
+		{0AC97E1C-7956-4B81-8246-9E1FBA5776FF}.Debug-netfx|x64.ActiveCfg = Debug-netfx|Any CPU
+		{0AC97E1C-7956-4B81-8246-9E1FBA5776FF}.Debug-netfx|x64.Build.0 = Debug-netfx|Any CPU
+		{0AC97E1C-7956-4B81-8246-9E1FBA5776FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AC97E1C-7956-4B81-8246-9E1FBA5776FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AC97E1C-7956-4B81-8246-9E1FBA5776FF}.Release|x64.ActiveCfg = Release|Any CPU
+		{0AC97E1C-7956-4B81-8246-9E1FBA5776FF}.Release|x64.Build.0 = Release|Any CPU
+		{0AC97E1C-7956-4B81-8246-9E1FBA5776FF}.Release-netcoreapp3_0|Any CPU.ActiveCfg = Release-netcoreapp3_0|Any CPU
+		{0AC97E1C-7956-4B81-8246-9E1FBA5776FF}.Release-netcoreapp3_0|Any CPU.Build.0 = Release-netcoreapp3_0|Any CPU
+		{0AC97E1C-7956-4B81-8246-9E1FBA5776FF}.Release-netcoreapp3_0|x64.ActiveCfg = Release-netcoreapp3_0|Any CPU
+		{0AC97E1C-7956-4B81-8246-9E1FBA5776FF}.Release-netcoreapp3_0|x64.Build.0 = Release-netcoreapp3_0|Any CPU
+		{0AC97E1C-7956-4B81-8246-9E1FBA5776FF}.Release-netfx|Any CPU.ActiveCfg = Release-netfx|Any CPU
+		{0AC97E1C-7956-4B81-8246-9E1FBA5776FF}.Release-netfx|Any CPU.Build.0 = Release-netfx|Any CPU
+		{0AC97E1C-7956-4B81-8246-9E1FBA5776FF}.Release-netfx|x64.ActiveCfg = Release-netfx|Any CPU
+		{0AC97E1C-7956-4B81-8246-9E1FBA5776FF}.Release-netfx|x64.Build.0 = Release-netfx|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1610,6 +1640,8 @@ Global
 		{AE4F7569-26F3-4160-8A8B-7A57D0DA3350} = {D3D38B03-B557-484D-8348-8BADEE4DF592}
 		{F308DC6B-7E59-40D7-A581-834E8CD99CFE} = {7F13E156-3EBA-4021-84A5-CD56BA72F99E}
 		{4C2D1A8F-7AC1-4036-B5E3-4B31769D73B8} = {09EADF06-BE25-4228-AB53-95AE3E15B530}
+		{D06E4830-B46D-43BC-A3B8-9A687C625292} = {DD3BE061-1186-449A-9F37-26636DF1C736}
+		{0AC97E1C-7956-4B81-8246-9E1FBA5776FF} = {D06E4830-B46D-43BC-A3B8-9A687C625292}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {41165AF1-35BB-4832-A189-73060F82B01D}
